@@ -382,7 +382,7 @@ GameObject:
   - component: {fileID: 370833567}
   - component: {fileID: 370833566}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: DropDownPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -857,7 +857,7 @@ GameObject:
   - component: {fileID: 795780248}
   - component: {fileID: 795780247}
   m_Layer: 5
-  m_Name: Selects
+  m_Name: SelectsDropDown
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1428,6 +1428,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35bd03c62bccf6d46bd65ad6bcbbb8d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dropdownQuality: {fileID: 795780247}
 --- !u!4 &1540022256
 Transform:
   m_ObjectHideFlags: 0
